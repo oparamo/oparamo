@@ -1,0 +1,28 @@
+{
+  "name": "oparamo",
+  "version": "0.1.0",
+  "description": "My personal website.",
+  "author": "Oscar Paramo",
+  "homepage": "https://github.com/oparamo/oparamo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oparamo/oparamo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oparamo/oparamo/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "inferno": "^3.6.4",
+    "inferno-component": "^3.6.4"
+  },
+  "devDependencies": {
+    "inferno-scripts": "4.1.0"
+  },
+  "scripts": {
+    "start": "inferno-scripts start",
+    "build": "inferno-scripts build",
+    "test": "inferno-scripts test --env=jsdom"
+  }
+}
